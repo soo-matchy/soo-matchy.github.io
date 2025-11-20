@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>HTML勉強用サイト(仮)</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>そまの個人ページ</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-   <h1>ようこそ！</h1>
-   <p>これはGitHub Pagesで公開されたウェブサイトです。</p>
-   <p>
-      リンクテスト<br>
-      <a href="https://google.co.jp" rel="external">googleリンク</a><br>
-      <a href="http://dav.eeic.jp">eeic-dav</a>
-   </p>
-   <h1>お問い合わせ</h1>
-   <a href="mailto:ithinkso.match@gmail.com">メール</a>
-   </p>
+  <header>
+    <div class="container">
+      <h1>そまの個人ページ</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">ホーム</a></li>
+          <li><a href="about.html">自己紹介</a></li>
+          <li><a href="diary/">日記</a></li>
+          <li><a href="memo.html">備忘録</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>最新の日記</h2>
+      <ul class="post-list">
+        <li><a href="diary/2025-11-09.html">2025年11月9日｜秋晴れの日の散歩</a></li>
+        <li><a href="diary/2025-11-08.html">2025年11月8日｜sample</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>最新の備忘録</h2>
+      <ul class="post-list">
+        <li><a href="tips/excel-tips.html">Excelで自動PDF化する方法</a></li>
+        <li><a href="tips/time-management.html">仕事とプライベートの時間管理術</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 soo-matchy</p>
+  </footer>
 </body>
 </html>
